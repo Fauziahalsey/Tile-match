@@ -64,39 +64,3 @@ body{
     padding-bottom: 2rem;
     border-radius: 2px;
 }
-/* The Modal (background) */
-.section .moda{
-   display: flex;
-   margin-right: 54rem;
-   background-color: rgb(0,0,0); 
-   background-color: rgba(0,0,0,0.4);
-  }
-  .section .moda #mybtn{
-    display: flex;
-    margin-right: 54rem;
-    border-radius: 5px;
-   }
-  
-  /* Modal Content */
-.section.moda .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  /* The Close Button */
-  .section.moda.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  /* .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  } */
