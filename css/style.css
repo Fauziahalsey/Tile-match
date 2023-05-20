@@ -11,10 +11,19 @@ body{
     margin-left: 38rem;
     display: flex;
 }
-.section .title .btn{
-    height: 10px;
-    width: 4rem;
-    border-radius: 5px;
+.section .title #stopbtn{
+    
+        position: absolute;
+        margin-top: -4rem;
+        margin-left: 6rem;
+        background-color:#ddaf17;
+        color: #fff;
+        border:none; 
+        border-radius:10px; 
+        padding:15px;
+        min-height:30px; 
+        min-width: 120px;
+      
 }
 /*  */
 .container{
