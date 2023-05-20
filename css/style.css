@@ -11,6 +11,11 @@ body{
     margin-left: 38rem;
     display: flex;
 }
+.section .title .btn{
+    height: 10px;
+    width: 4rem;
+    border-radius: 5px;
+}
 /*  */
 .container{
     border-radius: 10px;
