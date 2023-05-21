@@ -35,3 +35,8 @@ const openModal = function () {
       modalClose();
     }
   })
+
+  var memory_array = ['banana', 'banana', 'peach', 'peach', 'mango', 'mango', 'guava',',']
+  var memory_values = [];
+  var memory_tile_ids =[];
+  var tiles_flpped = 0;
