@@ -1,11 +1,11 @@
-if (timeleft < 0) {
-    clearInterval(myfunc);
-    document.getElementById("days").innerHTML = ""
-    document.getElementById("hours").innerHTML = "" 
-    document.getElementById("mins").innerHTML = ""
-    document.getElementById("secs").innerHTML = ""
-    document.getElementById("end").innerHTML = "TIME UP!!";
-}
+// if (timeleft < 0) {
+//     clearInterval(myfunc);
+//     document.getElementById("days").innerHTML = ""
+//     document.getElementById("hours").innerHTML = "" 
+//     document.getElementById("mins").innerHTML = ""
+//     document.getElementById("secs").innerHTML = ""
+//     document.getElementById("end").innerHTML = "TIME UP!!";
+// }
 
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
@@ -47,6 +47,15 @@ const openModal = function () {
     temp =this[j];
     this[j] = this[i];
     this[i] = temp;
-    
+
   }  
+}
+
+function newBoard(){
+    tiles_flpped = 0;
+    var output = '';
+    memory_array.memory_tile_shuffle();
+    for (var i = 0; i < memory_array.length; i++){
+        output += '<div id="tile'+i+""
+    }
 }
