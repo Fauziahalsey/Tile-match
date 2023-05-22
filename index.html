@@ -4,78 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>tile match</title>
-  
+    <title>Tile-match</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
-
- <section class="section">
-    <section class="title">
-        <h1>Click-match memory Game!!</h1>
-        <p>moves: <span id="moves"></span></p>
-        <div class="time"></div>
-        <button id="stopbtn"><h1>stop</h1></button>
-    </section>
-
-    <div class="row">
-        <div class="column">
-          <img src="./assests/star.png" alt="Snow" height="50px" width="50px">
+    <div class="header">
+        <h1>CLICK-MATCH MEMORY GAME!!!!</h1>
+    </div>
+    <div class="fauz">
+        <div class="contro">
+            <button>Start</button>
+            <div class="hailey">
+                <div class="moves">0 moves</div>
+                <div class="timer">Time: 0 sec</div>
+            </div>
         </div>
-
+        <div class="card">
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+        <div class="board-container">
+            <div class="board" data-dimension="3"></div>
+            <div class="win">You won! <img src="./assests/confetti.png" alt=""></div>
+        </div>
     </div>
-
-  
-  
-</section> 
-<section class="modal hidden">
-    <div class="flex">
-      <img src="./assests/firework.png" width="50px" height="50px" alt="user" />
-      <button class="btn-close">⨉</button>
-    </div>
-    <div>
-      <h3>You won <img src="./assests/firework.png" width="50px" height="50px" alt=""></h3>
-      
-       <h3>you made 11 moves <br>
-    in 0mins 29sec</h3>
-    <h3>Ratings <img src="./assests/star.png"width="50px" height="50px"  alt=""></h3>
-      
-    </div>
-  
-    <button class="btn">Play Again <img src="./assests/emoji.png" width="40px" height="40px" alt=""></button>
-  </section>
-  
-  <div class="overlay hidden"></div>
-  <button class="btn btn-open">Open Modal</button>
-
-<div class="container">
-    
-    <div class="box1">
-<div class="box"><img src="./assests/peach.png" alt="" height="100px" width="100px" id="peach" ></div>
- <div class="box"> <img src="./assests/banana.png" alt="" height="100px" width="100px" id="banana"></div>
- <div class="box"><img src="./assests/guava.png" alt="" height="100px" width="100px" id="guava" ></div>
- <div class="box"><img src="./assests/mango.png" alt="" height="100px" width="100px" id="mango" ></div>
- <div class="box"><img src="./assests/peach.png" alt="" height="100px" width="100px" id="peach" ></div>
- <div class="box"><img src="./assests/mango.png" alt="" height="100px" width="100px" id="mango" ></div>
- <div class="box"><img src="./assests/banana.png" alt="" height="100px" width="100px" id="banana"></div>
- <div class="box"><img src="./assests/guava.png" alt="" height="100px" width="100px" id="guava" ></div>
- <div class="box"><img src="./assests/banana.png" alt="" height="100px" width="100px" id="banana"></div>
- <div class="box"><img src="./assests/peach.png" alt="" height="100px" width="100px"  id="peach"></div>
- <div class="box"><img src="./assests/banana.png" alt="" height="100px" width="100px" id="banana" ></div>
- <div class="box"><img src="./assests/guava.png" alt=""height="100px" width="100px" id="guava" ></div>
-</div>
-</div>
-
-
-
-
- <!-- <div class="start">
-    <button id="startbtn"><h1>start</h1></button>
- </div> -->
-   
- <div id="memory_board"></div>
- <script src="./script.js"></script>
- <script>newBoard() ;</script>
+    <script src="./script.js"></script>
 </body>
-
 </html>
